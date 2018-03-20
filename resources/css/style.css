@@ -3,9 +3,6 @@ html {
   font:18px helvetica,sans-serif;
   color:white;
 }
-body {
-
-}
 .border {
   border:1px solid black;
 }
@@ -18,6 +15,8 @@ body {
   align-items: center;
   flex-direction:row;
 }
+
+
 /*Top logo*/
 .logo {
   background-color:black;
@@ -28,11 +27,30 @@ body {
   height:1.5rem;
   padding-right:1rem;
   padding-left:0.5rem;
-
+}
 
 /*Background image*/
-
-
+.back {
+  background-image:url(../images/moto.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:25rem;
+  overflow:hidden;
+}
+.top {
+  margin-top:9rem;
+  width:20rem;
+  padding:2rem 3rem;
+  font-weight: bold;
+  background-color:black;
+}
+.top h4 {
+  font-size:1rem;
+}
+.top h1 {
+  font-size:2rem;
+  padding-top:0.25rem;
+}
 
 /*Navigation*/
 
