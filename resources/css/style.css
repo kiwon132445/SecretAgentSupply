@@ -63,6 +63,9 @@ html {
 .navigation {
   background-color:firebrick;
 }
+.navigation .menu{
+  display:none;
+}
 .navigation div {
   justify-content:space-around;
 }
@@ -103,7 +106,7 @@ html {
 }
 
 
-/*footing*/
+/*information*/
 .info {
   display:flex;
   justify-content:space-between;
@@ -135,4 +138,56 @@ footer {
 .copyright span {
   text-align: left;
   margin:0;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width:1024px) {
+  .navigation .list{
+    display:none;
+  }
+  .navigation .menu{
+    display:contents;
+  }
+  .glasses {
+    display:none;
+  }
+  .image {
+    width:47%;
+  }
+  .lour {
+    width:35%;
+  }
+}
+@media only screen and (max-width:470px) {
+  .back {
+    height:15rem;
+  }
+  .top {
+    margin-top:10rem;
+    padding:1rem 2rem;
+  }
+  .top h4 {
+    font-size:0.77rem;
+  }
+  .top h1 {
+    font-size:1rem;
+  }
+  .watch {
+    display:none;
+  }
+  .image {
+    width:90%;
+  }
+  .info {
+    flex-direction:column;
+  }
+  .lour {
+    width:90%;
+    margin-bottom:0.5rem;
+  }
+  .copyright span {
+    text-align:center;
+    margin:0 auto;
+  }
 }
