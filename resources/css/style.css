@@ -29,6 +29,7 @@ html {
   padding-left:0.5rem;
 }
 
+
 /*Background image*/
 .back {
   background-image:url(../images/moto.jpeg);
@@ -52,8 +53,18 @@ html {
   padding-top:0.25rem;
 }
 
-/*Navigation*/
 
+/*Navigation*/
+.navigation {
+  background-color:firebrick;
+}
+.navigation div {
+  padding:0.75rem auto;
+  justify-content:space-around;
+}
+.navigation {
+  padding:0.75rem auto;
+}
 
 
 /*images*/
